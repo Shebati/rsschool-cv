@@ -1,6 +1,6 @@
 # Maksim Shabakhau
 ___
-<img alt="It&amp;#39;s me" height="250" src="/images/me.png" title="Maksim" width="250"/>
+![Me](/images/me.png)
 
 ## Contacts
 ___
