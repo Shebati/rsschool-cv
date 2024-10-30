@@ -26,3 +26,37 @@ ___
 + CSS
 + Git
 
+## Code example
+___
+### Description
+Finish the solution so that it takes an input n (integer) and returns a string that is the decimal representation of the number grouped by commas after every 3 digits.
+
+Assume: 0 <= n <= 2147483647
+
+```
+function groupByCommas(n) {
+    let list = String(n).split("")
+    if (list.length <= 3) {
+        return list.join("")
+    }
+    let ind = list.length % 3
+    if (ind == 0) {
+        ind = 3
+    }
+    let count = 4
+    let j = 0
+    for (let i = ind; i < list.length; i += count) {
+        if (list.length - i + j < 3) {
+            break
+        }
+        list.splice(i, 0, ",")
+        j++
+    }
+    return list.join("")
+}
+```
+
+## Languages:
+___
++ Russian - Native
++ English - B1+
