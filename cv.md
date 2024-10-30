@@ -1,6 +1,6 @@
 # Maksim Shabakhau
 ___
-![Me](/images/me.png)
+![Me](/images/maxim.png)
 
 ## Contacts
 ___
