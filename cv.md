@@ -33,7 +33,7 @@ Finish the solution so that it takes an input n (integer) and returns a string t
 
 Assume: 0 <= n <= 2147483647
 
-```
+``` javascript
 function groupByCommas(n) {
     let list = String(n).split("")
     if (list.length <= 3) {
