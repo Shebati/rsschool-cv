@@ -1,1 +1,1 @@
-https://Shebati.github.io/rsschool-cv/cv
+https://Shebati.github.io/rsschool-cv/
